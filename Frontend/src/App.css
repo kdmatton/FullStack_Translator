@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+div {
+    max-width: 600px;
+    margin: auto;
+    padding: 2px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+button {
+    display: block; /* Change to block for centering */
+    margin: 20px auto; /* Center it and add top/bottom margin */
+    padding: 15px 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center; /* Optional: center text within the button */
+}
+button:hover {
+    background-color: #0056b3;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+select:focus {
+    border-color: #007bff; /* Change border color on focus */
+    background-color: #f0f8ff; /* Change background color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.text-box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    text-align: center;
+}
